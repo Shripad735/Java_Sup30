@@ -30,6 +30,18 @@ public class stack_class {
         System.out.println("Element " + e + " Pushed to Stack");
     }
 
+    void push_str(String str)
+    {
+        if(is_full())
+        {
+            System.out.println("Stack Is Already Full");
+            return;
+        }
+        tos++;
+        stack[tos] = Integer.parseInt(str);
+        System.out.println("Element " + str + " Pushed to Stack");
+    }
+
     boolean is_full()
     {
         if(tos==MaxSize-1)
