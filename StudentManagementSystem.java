@@ -13,12 +13,30 @@ class Student {
         this.rollNumber = rollNumber;
     }
 
-    public String getName() { return name; }
-    public String getGender() { return gender; }
-    public int getRollNumber() { return rollNumber; }
+    public String getName() 
+    { 
+        return name; 
+    }
 
-    public void setName(String name) { this.name = name; }
-    public void setGender(String gender) { this.gender = gender; }
+    public String getGender() 
+    { 
+        return gender; 
+    }
+
+    public int getRollNumber() 
+    { 
+        return rollNumber; 
+    }
+
+    public void setName(String name) 
+    { 
+        this.name = name; 
+    }
+
+    public void setGender(String gender) 
+    { 
+        this.gender = gender; 
+    }
 }
 
 public class StudentManagementSystem {
